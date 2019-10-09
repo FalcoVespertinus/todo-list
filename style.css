@@ -1,0 +1,106 @@
+body {
+	background: dimgrey;
+	font-family: verdana, sans-serif;
+	font-size: 1em;
+}
+
+.card {
+	background-color: white;
+	margin: auto;
+	padding: 0;
+	height: 500px;
+	width: 300px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.list-title {
+	position: relative;
+	height: 150px;
+	background-image: url(/images/squirrel.jpg);
+	background-size: cover;
+	background-position: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.list-title .fa-undo-alt {
+	color: white;
+	float: right;
+	margin: 15px;
+	text-shadow: 1px 1px black;
+	font-size: 20px;
+}
+
+.date {
+	margin: 0;
+	padding: 0 0 5px 5px;
+	position: absolute;
+	bottom: 0;
+	font-size: 1rem;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+#item-list {
+	overflow: auto;
+	max-height: 300px;
+}
+
+.list {
+	padding: 0;
+}
+
+.list-item {
+	list-style: none;
+	padding: 0;
+	margin: 5px
+}
+
+.list-item #checkbox {
+	margin: 0 10px;
+}
+
+.list-item .fa-trash-alt {
+	float: right;
+	margin-right: 10px;
+}
+
+.input {
+	position: absolute;
+	bottom: 0;
+	width: 300px; 
+	height: 35px;
+	box-shadow: 0 -5px 5px -5px darkgreen;
+	padding: 5px 0;
+	float: right;
+}
+
+.input input {
+	width: 80%;
+	height: 70%;
+	border-radius: 5px;
+	float: right;
+	margin: 0 10px 10px 0;
+	vertical-align: middle;
+}
+
+.input .fa-plus-circle {
+	color: darkgreen;
+	font-size: 30px;
+	float: left;
+	margin-left: 10px;
+}
+
+.input .fa-plus-circle:hover {
+	color: #008000;
+}
+
+.input .fa-plus-circle:active {
+	color: #004000;
+}
+
+.input input:focus {
+	outline: none;
+	box-shadow: 0 0 5px .5px darkgreen;
+}
