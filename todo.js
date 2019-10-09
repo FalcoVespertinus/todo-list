@@ -39,6 +39,8 @@ document.getElementById("plus").addEventListener('click', function(e) {
 		insertItem(input.value);
 		input.value = "";
 		input.focus();
+
+		ööö
 	}
 });
 
